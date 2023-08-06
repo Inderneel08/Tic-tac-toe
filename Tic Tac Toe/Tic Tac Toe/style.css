@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pageTop{
+    background-color: black;
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+
+
+.pageTop h1{
+    color: white;
+    font-size: 27px;
+}
+
+
+#main_box{
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+    margin-top: 50px;
+}
+
+
+.game_container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+
+
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: pink;
+}
+
+.win_scenario{
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    
+}
+
+#resetButton{
+    position: absolute;
+    left: 80%;
+    top: 40%;
+    width: 10vh;
+    opacity: 0;
+}
+
+
+
+
+
